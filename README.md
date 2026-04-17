@@ -17,15 +17,14 @@
 
 ## 🚀 快速开始
 
-### 安装
+### 1. 克隆项目
 
 ```bash
 git clone https://github.com/konglong87/infographic-generator-skills.git
 cd infographic-generator-skills
-npm install
 ```
 
-### 系统依赖
+### 2. 安装系统依赖
 
 **macOS:**
 ```bash
@@ -42,25 +41,116 @@ sudo apt-get install librsvg2-bin
 sudo yum install librsvg2
 ```
 
-### 使用
+### 3. 安装Node依赖
 
-#### 方式1：一句话生成（推荐）
+```bash
+npm install
+```
+
+### 4. 安装为AI工具Skill（推荐）
+
+根据你使用的AI工具，选择对应的安装方式：
+
+#### Claude Code
+
+```bash
+# 创建skills目录
+mkdir -p ~/.claude/skills
+
+# 创建软链接
+ln -s $(pwd) ~/.claude/skills/infographic-generator
+
+# 重启Claude Code
+```
+
+**验证安装：**
+```bash
+ls -la ~/.claude/skills/infographic-generator
+```
+
+#### Codex CLI
+
+```bash
+# 创建skills目录
+mkdir -p ~/.codex/skills
+
+# 创建软链接
+ln -s $(pwd) ~/.codex/skills/infographic-generator
+
+# 重启Codex
+```
+
+**验证安装：**
+```bash
+ls -la ~/.codex/skills/infographic-generator
+```
+
+#### Cursor
+
+```bash
+# 创建cursor skills目录
+mkdir -p ~/.cursor/skills
+
+# 创建软链接
+ln -s $(pwd) ~/.cursor/skills/infographic-generator
+
+# 重启Cursor
+```
+
+**验证安装：**
+```bash
+ls -la ~/.cursor/skills/infographic-generator
+```
+
+#### OpenCode
+
+```bash
+# 创建opencode skills目录
+mkdir -p ~/.opencode/skills
+
+# 创建软链接
+ln -s $(pwd) ~/.opencode/skills/infographic-generator
+
+# 重启OpenCode
+```
+
+**验证安装：**
+```bash
+ls -la ~/.opencode/skills/infographic-generator
+```
+
+---
+
+## 💡 使用方法
+
+### 方式1：一句话生成（推荐）
+
+安装为Skill后，直接在AI对话中描述需求：
+
+```
+用户：生成Python编程语言的信息图，包含语法简洁、应用广泛、生态丰富、跨平台4个特点，使用极简风格
+AI：[自动调用infographic-generator skill生成PNG图片]
+```
+
+### 方式2：命令行直接运行
 
 ```bash
 node skill-render.js "生成Python编程语言的信息图，包含语法简洁、应用广泛、生态丰富、跨平台4个特点，使用极简风格"
 ```
 
-#### 方式2：指定风格和类型
+### 方式3：指定风格和类型
 
 ```bash
 node skill-render.js "生成AI趋势对比图" --style cyberpunk --type comparison
 ```
 
-#### 方式3：使用SVG生成器CLI
+### 方式4：使用SVG生成器CLI
 
 ```bash
 node svg-generator/cli.js --config fortune-temp.json --output output.png
 ```
+
+---
 
 ## 🎨 支持的风格
 
@@ -146,6 +236,24 @@ infographic-generator-skills/
 | SVG生成器 | ~10ms | rsvg-convert | ⭐⭐⭐⭐⭐ |
 | Remotion | ~5s | Node + React | ⭐⭐⭐⭐ |
 | Puppeteer | ~10s | Chromium | ⭐⭐⭐ |
+
+## 🔄 更新Skill
+
+```bash
+cd infographic-generator-skills
+git pull
+npm install
+```
+
+## ❌ 卸载Skill
+
+```bash
+# 根据安装位置删除软链接
+rm ~/.claude/skills/infographic-generator      # Claude
+rm ~/.codex/skills/infographic-generator       # Codex
+rm ~/.cursor/skills/infographic-generator      # Cursor
+rm ~/.opencode/skills/infographic-generator    # OpenCode
+```
 
 ## 🤝 贡献
 
