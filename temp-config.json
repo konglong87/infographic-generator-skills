@@ -1,0 +1,44 @@
+{
+  "template": "process",
+  "output": "OpenClaw消息处理完整流程-infographic.png",
+  "content": {
+    "title": "OpenClaw消息处理完整流程",
+    "subtitle": "包含1个核心要点的实用指南",
+    "meta_info": "创建于2026/3/17 | 主题：OpenClaw消息处理完整流程",
+    "items": [
+      {
+        "icon": "📌",
+        "title": "1. Telegram Adapter接收消息\n   动作：协议转换",
+        "description": "1. Telegram Adapter接收消息\n   动作：协议转换的关键要点和实践方法"
+      }
+    ],
+    "summary": [
+      "OpenClaw消息处理完整流程涵盖1个核心要点：1. Telegram Adapter接收消息\n   动作：协议转换",
+      "掌握这些要点对理解和应用OpenClaw消息处理完整流程至关重要",
+      "建议结合实际场景进行练习和应用"
+    ]
+  },
+  "style": {
+    "background_color": "#0A1628",
+    "primary_color": "#00D4FF",
+    "secondary_color": "#7C3AED",
+    "accent_color": "#E0E7FF",
+    "text_color": "#FFFFFF",
+    "border_color": "#1E293B",
+    "background_pattern": "tech_grid",
+    "gradient": "linear-gradient(135deg, #0A1628 0%, #1A1F3A 50%, #2D1B4E 100%)",
+    "decorative_elements": [
+      "circuits",
+      "glow_dots",
+      "lines"
+    ],
+    "card_style": "glass",
+    "font_style": "modern"
+  },
+  "style_name": "科技风",
+  "output_config": {
+    "width": 1920,
+    "height": 1080,
+    "orientation": "horizontal"
+  }
+}

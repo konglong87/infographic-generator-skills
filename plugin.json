@@ -1,0 +1,43 @@
+{
+  "name": "infographic-generator",
+  "version": "1.0.0",
+  "description": "一站式信息图生成工具：根据用户需求描述，自动生成PNG格式的信息图和科研绘图。支持8种专业风格和7种图表类型，采用SVG生成器实现高性能渲染（~10ms）。",
+  "author": {
+    "name": "恐龙创新部",
+    "url": "https://github.com/konglong87"
+  },
+  "homepage": "https://github.com/konglong87/infographic-generator-skills",
+  "repository": "https://github.com/konglong87/infographic-generator-skills",
+  "license": "MIT",
+  "keywords": [
+    "infographic",
+    "信息图",
+    "信息图表",
+    "可视化图表",
+    "数据可视化",
+    "科研图",
+    "科研绘图",
+    "学术图表",
+    "手绘图",
+    "手绘风格",
+    "生成图片",
+    "图片生成",
+    "png生成",
+    "知识科普",
+    "对比分析",
+    "流程说明",
+    "数据展示",
+    "小红书图片",
+    "科技风",
+    "可爱风",
+    "简约风",
+    "手绘风",
+    "教学风",
+    "漫画风",
+    "bento风",
+    "泥塑风",
+    "remotion",
+    "svg-generator",
+    "高性能渲染"
+  ]
+}

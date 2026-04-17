@@ -1,0 +1,19 @@
+{
+  "name": "infographic-generator",
+  "owner": {
+    "name": "恐龙创新部",
+    "url": "https://github.com/konglong87"
+  },
+  "plugins": [
+    {
+      "name": "infographic-generator",
+      "description": "一站式信息图生成工具 - 根据用户需求描述自动生成PNG格式的信息图和科研绘图。支持8种专业风格（极简、马卡龙、赛博朋克、莫兰迪、国潮、商务、手绘、扁平化）和7种图表类型（知识科普、对比分析、流程说明、数据展示、小红书、时间线、思维导图）。采用SVG生成器实现高性能渲染（~10ms），性能提升1000倍。",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "恐龙创新部",
+        "url": "https://github.com/konglong87"
+      }
+    }
+  ]
+}

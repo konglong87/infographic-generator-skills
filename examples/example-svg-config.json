@@ -1,0 +1,32 @@
+{
+  "template": "knowledge",
+  "style": 1,
+  "orientation": "landscape",
+  "content": {
+    "title": "SVG信息图生成器",
+    "subtitle": "轻量、快速、专业的信息图生成方案",
+    "items": [
+      {
+        "title": "极速渲染",
+        "description": "纯代码生成SVG，无需启动浏览器，渲染速度提升10倍以上"
+      },
+      {
+        "title": "矢量输出",
+        "description": "生成可编辑的SVG文件，支持无限缩放，印刷级质量"
+      },
+      {
+        "title": "8种风格",
+        "description": "极简、马卡龙、赛博朋克、莫兰迪、国潮、商务、手绘、扁平化"
+      },
+      {
+        "title": "专业布局",
+        "description": "参考fireworks-tech-graph的布局算法，自动优化视觉层次"
+      }
+    ],
+    "summary": "SVG生成器是新一代信息图渲染引擎，兼顾速度与质量"
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080
+  }
+}

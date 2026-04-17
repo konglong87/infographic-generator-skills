@@ -1,0 +1,42 @@
+{
+  "name": "infographic-generator",
+  "version": "1.0.0",
+  "description": "高性能信息图生成器 - 一句话生成PNG图片，支持8种专业风格和7种图表类型",
+  "main": "skill-render.js",
+  "scripts": {
+    "render": "node skill-render.js",
+    "svg": "node svg-generator/cli.js",
+    "test": "node svg-generator/index.js --test"
+  },
+  "keywords": [
+    "infographic",
+    "信息图",
+    "数据可视化",
+    "科研绘图",
+    "图表生成",
+    "小红书",
+    "svg-generator",
+    "remotion",
+    "puppeteer"
+  ],
+  "author": "恐龙创新部 <2235998553@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konglong87/infographic-generator-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/konglong87/infographic-generator-skills/issues"
+  },
+  "homepage": "https://github.com/konglong87/infographic-generator-skills#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.435",
+    "@remotion/cli": "^4.0.435",
+    "@remotion/renderer": "^4.0.435",
+    "puppeteer": "^24.39.0",
+    "remotion": "^4.0.435"
+  }
+}
